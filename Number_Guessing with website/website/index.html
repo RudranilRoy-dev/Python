@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guess Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Welcome to the Number Guess Game!</h1>
+        <p id="instructions">Computer will generate a number in range (0-10000). Try to guess it!</p>
+        <p id="feedback"></p>
+        
+        <label for="user-guess">Enter your guess:</label>
+        <input type="number" id="user-guess" min="0" max="10000" placeholder="Guess the number">
+        <button onclick="makeGuess()">Submit Guess</button>
+
+        <div id="attempts-info"></div>
+        <div id="highscore-info"></div>
+
+        <button id="play-again" onclick="playAgain()" style="display:none;">Play Again</button>
+        <button id="exit-game" onclick="exitGame()">Exit</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
