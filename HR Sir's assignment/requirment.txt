@@ -1,0 +1,8 @@
+SpeechRecognition
+pyttsx3
+pyautogui
+requests
+google-generativeai
+selenium
+pycaw
+comtypes
