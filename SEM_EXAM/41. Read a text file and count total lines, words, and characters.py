@@ -1,0 +1,10 @@
+with open("41. file.txt") as file:
+    text=file.read()
+    lines=text.splitlines()
+    line_count=len(lines)
+    words=text.split()
+    word_count=len(words)
+    char_count=len(text)
+    print("Lines: ",line_count)
+    print("Words: ",word_count)
+    print("Characters: ",char_count)
